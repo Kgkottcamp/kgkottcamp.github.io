@@ -27,7 +27,6 @@ nav a {
 }
 
 header nav{
-    background: transparent !important;
     text-align: center;
 }
 
@@ -66,19 +65,19 @@ body main {
 /* unvisited link */
 a:link {
     color: red;
-  }
-  
+}
+
   /* visited link */
-  a:visited {
+a:visited {
     color: green;
-  }
-  
+}
+
   /* mouse over link */
-  a:hover {
+a:hover {
     color: hotpink;
-  }
-  
+}
+
   /* selected link */
-  a:active {
+a:active {
     color: blue;
-  }
+}
