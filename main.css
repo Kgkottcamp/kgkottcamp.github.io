@@ -10,6 +10,7 @@ header .logo {
     letter-spacing: .2em;
     font-weight: 700;
     color: #000000;
+
 }
 
 header > div .logo {
@@ -23,11 +24,15 @@ nav a {
     color: #000000;
     text-decoration: none;  
     list-style-type: circle;
+
     
 }
 
 header nav{
     text-align: center;
+    margin: auto;
+    padding-top: 5%;
+
 }
 
 .heroimage {
@@ -35,18 +40,36 @@ header nav{
     background-size: 10rem;
     background-repeat: no-repeat;
     height: 10vh;
+    position: fixed;
 }
 
+.projects {
+    float: left;
+}
+
+.projects .col-1 {
+    width: 100%
+}
+
+.projects .col-2 {
+    width: 100%;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
 
 /*body text*/
 body main {
-    padding: 4rem; 
+    padding: 0; 
     font: 14px/1.5 ‘Nunito’, sans-serif;
 }
 
 /*main footer*/
 .main-footer {
-    padding: 4em 0em 0.9em 0em;
+    margin: auto;
+    padding-top: 5%;;
     background: #f2f2f2;
     text-align: center;
     display: flex;
@@ -58,7 +81,7 @@ body main {
     width: 33%;
     height: 33%;
     text-align: center;
-    margin-bottom: 4em;
+    margin-bottom: 5%;
     
 }
 
