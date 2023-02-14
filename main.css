@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"); 
 @import url("https://use.fontawesome.com/releases/v5.13.1/css/all.css"); 
-
+@media only screen and (max-width: 750px) {}
 
 
 
@@ -21,7 +21,6 @@ header > div .logo {
 nav a {
     padding: 1em 2.5em;
     display: inline-block;
-    color: #000000;
     text-decoration: none;  
     list-style-type: circle;
 
@@ -104,3 +103,44 @@ a:hover {
 a:active {
     color: blue;
 }
+
+
+@media only screen and (max-width: 880px) {
+
+    #wrapper {
+        width: 80%;
+        margin: auto;
+        }
+        
+        .column {
+        width: 33.33%;
+        float: left;
+        margin: 10%;
+        }
+        
+        header .container {
+                padding: 1em 2.5em;
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;  
+                list-style-type: circle;
+
+            
+                
+            }
+            
+            header nav{
+                text-align: right;
+                margin: auto;
+                padding-top: 0%;
+        }
+
+        .logo {
+            text-align: center;
+        }
+
+        .projects {
+            float:none;
+            text-align: center;
+        }
+    }
