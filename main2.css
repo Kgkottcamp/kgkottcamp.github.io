@@ -6,7 +6,8 @@ body a {
 
 header .row {
 padding-top: 10mm;  
-padding-left: 30%;
+padding-left: 20%;
+text-align: center;
 }
 
 header .logo {
@@ -19,10 +20,10 @@ header .logo {
 }
 
 main .row {
-padding-left: 16%;
-padding-top: 10mm;
-text-align: center;
-align-items: center;
+    padding-left: 16%;
+    padding-top: 10mm;
+    text-align: center;
+    align-items: center;
 }
 
 .bio {
@@ -32,3 +33,53 @@ align-items: center;
 footer .container {
     text-align: center;
 }
+
+
+/* Fish Animation */
+
+.fish {
+    width: 50%;
+    height: 50%;
+    animation-name: fish-anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes fish-anim {
+    0% { 
+        padding-left: 0%;
+
+    }
+
+    
+    100% {
+        padding-left: 200%;
+        -webkit-transform: scaleX(-1);
+    }
+
+    }
+
+
+/* Transitions for nav */
+
+    header .row div {
+        transition: transform .5s;
+    }
+
+    header .row div:hover {
+        transform: scale(1.5);
+
+    }
+
+
+    main .row div {
+        transition: transform .5s;
+    }
+
+    main .row div:hover {
+        transform: scale(1.5);
+
+    }   
+
+    
