@@ -141,6 +141,7 @@ section {
 
 strong {
     color: rgb(49, 203, 64);
+    text-transform: uppercase; 
 }
 
 section h2 {
