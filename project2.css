@@ -1,16 +1,16 @@
 body {
-	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
-    background-color: #333;
+    background-color: rgb(25, 32, 28);
 }
 
 .nav .row {
         padding-top: 10mm;  
         text-align: center;
 }
+
 
 .row a {
     padding-left: 20mm;
@@ -20,12 +20,14 @@ html {
     scroll-behavior: smooth; 
 } 
 
+
 header ul{
     text-transform: uppercase; 
     font-weight: 700;
     padding-top: 10mm;
     padding-bottom: 10mm;
     text-align: center;
+    padding-left: 10mm;
     }
 
     ul li{
@@ -80,25 +82,18 @@ header ul{
         }
     }
 
-nav {
-	background-color: #444;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	padding: 1rem;
-}
 
 header .row {
-    background-color: #444;
-	color: #fff;
 	display: flex;
 	justify-content: center;
 	padding: 1rem;
 }
 
-nav ul {
-	list-style: none;
+nav {
+	background-color: rgb(32, 44, 34);
 	display: flex;
+	justify-content: center;
+	padding: 1rem;
 }
 
 nav li {
@@ -106,8 +101,18 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: rgb(49, 203, 64);
 	text-decoration: none;
+    text-transform: uppercase; 
+
+}
+
+nav a:hover {
+    color: rgb(187, 255, 0);
+}
+
+h6 {
+    font-family: 'Khand', sans-serif;
 }
 
 main {
@@ -121,13 +126,16 @@ main h2{
     text-transform: uppercase; 
     letter-spacing: 1mm;
     font-weight: 700;
-    color: #ffffff;
+    color: rgb(49, 203, 64);
     padding-top: 10mm;
     padding-bottom: 10mm;
+
+    font-weight: 700;
 }
 
 section {
 	margin-bottom: 2rem;
+    
 }
 
 
@@ -150,10 +158,42 @@ section h2 {
 }
 
 footer {
-	background-color: #333;
-	color: #fff;
 	text-align: center;
 	padding: 1rem;
+    padding-bottom: 10mm;
 }
-    
 
+
+
+footer .button {
+    background-color: rgb(49, 203, 64); 
+    border: 1px  rgb(13, 255, 0); 
+    color: rgb(32, 44, 34);
+    transition: .3s all ease; 
+    text-transform: uppercase; 
+    font-weight: 800;
+    letter-spacing: .15em; 
+
+    
+}
+
+footer .button:hover {
+    background-color: rgb(187, 255, 0);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(49, 203, 64); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(187, 255, 0);
+  }
