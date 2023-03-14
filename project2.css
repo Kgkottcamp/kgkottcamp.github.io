@@ -165,7 +165,6 @@ footer {
 }
 
 
-
 footer .button {
     background-color: rgb(49, 203, 64); 
     border: 1px  rgb(13, 255, 0); 
@@ -183,18 +182,15 @@ footer .button:hover {
 }
 
 
-/* width */
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 20px;
-  }
-  
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: rgb(49, 203, 64); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: rgb(187, 255, 0);
-  }
+}
