@@ -526,7 +526,7 @@ body {
   color: black;
 }
 
-.v1180_127 {
+.bhamTitle {
   width: 147px;
   color: rgba(0,0,0,1);
   position: fixed;
@@ -538,6 +538,11 @@ body {
   opacity: 1;
   text-align: right;
 }
+
+.bhamTitle:hover {
+  color: rgb(136, 136, 136);
+}
+
 .v1180_128 {
   width: 16px;
   color: rgba(211,213,223,1);
@@ -627,4 +632,17 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(211,213,223,1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(136, 136, 136);
 }

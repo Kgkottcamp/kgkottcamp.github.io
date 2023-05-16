@@ -1287,6 +1287,12 @@ body {
   opacity: 1;
   text-align: right;
 }
+
+.FlockUpTitle:hover {
+  color: rgb(136, 136, 136);
+}
+
+
 .v1157_379 {
   width: 16px;
   color: rgba(0,0,0,1);
@@ -1376,4 +1382,17 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(211,213,223,1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(136, 136, 136);
 }

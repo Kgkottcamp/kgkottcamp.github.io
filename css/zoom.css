@@ -1048,6 +1048,10 @@ body {
   text-align: right;
 }
 
+.ZoomTitle:hover {
+  color: rgb(136, 136, 136);
+}
+
 
 .nav a {
   text-decoration: none;
@@ -1065,4 +1069,17 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(211,213,223,1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(136, 136, 136);
 }

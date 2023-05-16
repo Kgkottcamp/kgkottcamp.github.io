@@ -306,7 +306,7 @@ body {
   color: black;
 }
 
-.v1043_115 {
+.AboutTitle {
   width: 147px;
   color: rgba(0,0,0,1);
   position: fixed;
@@ -318,6 +318,11 @@ body {
   opacity: 1;
   text-align: right;
 }
+
+.AboutTitle:hover {
+  color: rgb(136, 136, 136);
+}
+
 .v1071_241 {
   width: 16px;
   color: rgba(211,213,223,1);
@@ -407,4 +412,17 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(211,213,223,1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(136, 136, 136);
 }
